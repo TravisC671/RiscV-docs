@@ -31,9 +31,10 @@
 
 details {
   background-color: var(--ifm-background-color) !important;
-  border: none !important;
+  border: transparent 2px solid !important;
   margin: 0px !important;
   padding: 0px 15px 0px 15px !important;
+  
 }
 
 summary {
@@ -42,11 +43,12 @@ summary {
 
 details[open] {
   background-color: var(--ifm-background-color);
+  border: var(--docusaurus-details-decoration-color) 1px solid !important;
 }
 
 details[open] summary + div {
-  margin-bottom: 15px;
-  padding-bottom: 16px;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--docusaurus-details-decoration-color);
 }
 
