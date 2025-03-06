@@ -1,0 +1,8 @@
+{
+  "label": "Quick Reference",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Quick access to things that might be usefull"
+  }
+}
