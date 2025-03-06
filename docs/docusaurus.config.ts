@@ -19,6 +19,9 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TravisC671', // Usually your GitHub org/user name.
   projectName: 'RiscV-docs', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: true,
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
